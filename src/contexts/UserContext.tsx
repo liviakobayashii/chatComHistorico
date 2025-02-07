@@ -11,7 +11,9 @@ export default function UserProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState("");
 
   return (
-    <UserContext.Provider value={{ user, setUser }}></UserContext.Provider>
+    <UserContext.Provider value={{ user, setUser }}>
+      {children}
+    </UserContext.Provider>
   );
 }
 
