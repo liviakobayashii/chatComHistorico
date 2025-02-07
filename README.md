@@ -14,3 +14,4 @@ Atualmente, o projeto não possui um deploy online. Clone o repositório e execu
 * TypeScript
 * Context API
 * TailwindCSS
+* *NextJS
